@@ -7,6 +7,6 @@ type QuestionViewProps = {
   questionText: string
 }
 
-export const QuestionView = ({ answers, questionText }: QuestionViewProps) => {
-  return <Question answers={answers} questionText={questionText} />
-}
+export const QuestionView = ({ answers, questionText }: QuestionViewProps) => (
+  <Question answers={answers} questionText={questionText} />
+)

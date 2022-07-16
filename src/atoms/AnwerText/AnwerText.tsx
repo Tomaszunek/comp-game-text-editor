@@ -4,6 +4,4 @@ export type AnswerTextProps = {
   answer: string
 }
 
-export const AnswerText = ({ answer }: AnswerTextProps) => {
-  return <div>{answer}</div>
-}
+export const AnswerText = ({ answer }: AnswerTextProps) => <div>{answer}</div>
