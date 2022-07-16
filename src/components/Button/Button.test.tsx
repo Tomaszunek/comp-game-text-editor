@@ -3,14 +3,18 @@ import React from 'react'
 
 import { Button } from './Button'
 
-test('Header contains correct text', () => {
-  render(<Button label="abc" />)
-  const text = screen.getByText('abc')
-  expect(text).toBeInTheDocument()
-})
+describe('button', () => {
+  it('header contains correct text', () => {
+    expect.hasAssertions()
+    render(<Button label="abc" />)
+    const text = screen.getByText('abc')
+    expect(text).toBeInTheDocument()
+  })
 
-test('Header contains correct text', () => {
-  render(<Button backgroundColor="red" label="abc" />)
-  const text = screen.getByText('abc')
-  expect(text).toBeInTheDocument()
+  it('header contains correct text with background', () => {
+    expect.hasAssertions()
+    render(<Button backgroundColor="red" label="abc" />)
+    const text = screen.getByText('abc')
+    expect(text).toBeInTheDocument()
+  })
 })

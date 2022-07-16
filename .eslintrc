@@ -16,7 +16,8 @@
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:prettier/recommended",
     "plugin:storybook/recommended",
-    "plugin:tailwindcss/recommended"
+    "plugin:tailwindcss/recommended",
+    "plugin:jest/all"
   ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
@@ -31,7 +32,8 @@
     "react-hooks",
     "import",
     "@typescript-eslint",
-    "tailwindcss"
+    "tailwindcss",
+    "jest"
   ],
   "rules": {
     "no-undef": "off",
