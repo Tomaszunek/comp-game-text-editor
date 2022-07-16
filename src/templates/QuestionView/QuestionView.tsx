@@ -2,7 +2,7 @@ import React from 'react'
 
 import { Question } from '../../organisms'
 
-type QuestionViewProps = {
+export type QuestionViewProps = {
   answers: string[]
   questionText: string
 }

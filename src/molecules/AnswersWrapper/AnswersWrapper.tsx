@@ -2,7 +2,7 @@ import React from 'react'
 
 import { AnswerText } from '../../atoms'
 
-type AnswersWrapperProps = {
+export type AnswersWrapperProps = {
   answers: string[]
 }
 

@@ -3,7 +3,7 @@ import React from 'react'
 import { QuestionText } from '../../atoms'
 import { AnswersWrapper } from '../../molecules'
 
-type QuestionProps = {
+export type QuestionProps = {
   answers: string[]
   questionText: string
 }
