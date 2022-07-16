@@ -1,3 +1,3 @@
-import { AnswersWrapper } from "./AnswersWrapper/AnswersWrapper";
+import { AnswersWrapper } from './AnswersWrapper/AnswersWrapper'
 
-export { AnswersWrapper };
+export { AnswersWrapper }

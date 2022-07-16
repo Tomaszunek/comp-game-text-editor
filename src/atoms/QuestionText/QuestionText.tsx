@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
-type QuestionTextProps = { questionText: string };
+type QuestionTextProps = { questionText: string }
 
 export const QuestionText = ({ questionText }: QuestionTextProps) => {
-  return <div>{questionText}</div>;
-};
+  return <div>{questionText}</div>
+}

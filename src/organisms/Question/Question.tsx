@@ -1,11 +1,12 @@
-import React from "react";
-import { QuestionText } from "../../atoms";
-import { AnswersWrapper } from "../../molecules";
+import React from 'react'
+
+import { QuestionText } from '../../atoms'
+import { AnswersWrapper } from '../../molecules'
 
 type QuestionProps = {
-  answers: string[];
-  questionText: string;
-};
+  answers: string[]
+  questionText: string
+}
 
 export const Question = ({ answers, questionText }: QuestionProps) => {
   return (
@@ -13,5 +14,5 @@ export const Question = ({ answers, questionText }: QuestionProps) => {
       <QuestionText questionText={questionText} />
       <AnswersWrapper answers={answers} />
     </div>
-  );
-};
+  )
+}

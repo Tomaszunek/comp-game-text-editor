@@ -1,3 +1,3 @@
-import { Question } from "./Question/Question";
+import { Question } from './Question/Question'
 
-export { Question };
+export { Question }

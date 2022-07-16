@@ -1,1 +1,1 @@
-export { AnswerText } from "./AnwerText";
+export { AnswerText } from './AnwerText'

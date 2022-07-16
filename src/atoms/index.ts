@@ -1,4 +1,4 @@
-import { AnswerText } from "./AnwerText";
-import { QuestionText } from "./QuestionText/QuestionText";
+import { AnswerText } from './AnwerText'
+import { QuestionText } from './QuestionText/QuestionText'
 
-export { AnswerText, QuestionText };
+export { AnswerText, QuestionText }

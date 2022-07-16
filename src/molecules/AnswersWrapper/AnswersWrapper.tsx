@@ -1,9 +1,10 @@
-import React from "react";
-import { AnswerText } from "../../atoms";
+import React from 'react'
+
+import { AnswerText } from '../../atoms'
 
 type AnswersWrapperProps = {
-  answers: string[];
-};
+  answers: string[]
+}
 
 export const AnswersWrapper = ({ answers }: AnswersWrapperProps) => {
   return (
@@ -12,5 +13,5 @@ export const AnswersWrapper = ({ answers }: AnswersWrapperProps) => {
         <AnswerText answer={answer} key={answer} />
       ))}
     </>
-  );
-};
+  )
+}

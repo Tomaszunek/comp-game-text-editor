@@ -1,5 +1,5 @@
-import "./styles/tailwind.css";
-import Button from "./components/Button";
-import { AnswerText } from "./atoms";
+import './styles/tailwind.css'
+import { AnswerText } from './atoms'
+import Button from './components/Button'
 
-export { AnswerText, Button };
+export { AnswerText, Button }
