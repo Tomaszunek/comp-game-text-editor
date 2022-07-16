@@ -39,9 +39,7 @@ const Button = ({
   return (
     <button
       type="button"
-      className={["storybook-button", `storybook-button--${size}`, mode].join(
-        " "
-      )}
+      className="flex flex-row"
       style={backgroundColor ? { backgroundColor } : {}}
       onClick={onClick}
     >
