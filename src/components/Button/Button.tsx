@@ -6,7 +6,7 @@ export interface ButtonProps {
   onClick?: (event: React.MouseEvent<HTMLButtonElement, MouseEvent>) => void
 }
 
-const Button = ({ backgroundColor, onClick, label }: ButtonProps) => {
+export const Button = ({ backgroundColor, onClick, label }: ButtonProps) => {
   return (
     <button
       className="flex flex-row"
@@ -18,5 +18,3 @@ const Button = ({ backgroundColor, onClick, label }: ButtonProps) => {
     </button>
   )
 }
-
-export default Button

@@ -1,3 +1,1 @@
-import { QuestionView } from './QuestionView/QuestionView'
-
-export { QuestionView }
+export { QuestionView } from './QuestionView/QuestionView'

@@ -2,6 +2,9 @@
   "name": "game-comp",
   "version": "1.0.0",
   "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0"
+  },
   "devDependencies": {
     "@babel/core": "^7.18.6",
     "@rollup/plugin-commonjs": "^22.0.1",
@@ -21,8 +24,11 @@
     "@typescript-eslint/parser": "5.30.6",
     "babel-loader": "^8.2.5",
     "eslint": "8.19.0",
+    "eslint-config-cecilia": "^2.5.5",
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-jsdoc": "^39.3.3",
+    "eslint-plugin-jsx-a11y": "^6.6.0",
     "eslint-plugin-prettier": "4.2.1",
     "eslint-plugin-react": "7.30.1",
     "eslint-plugin-react-hooks": "4.6.0",
@@ -32,7 +38,6 @@
     "postcss": "^8.4.14",
     "postcss-loader": "^4.1.0",
     "prettier": "2.7.1",
-    "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "rollup": "^2.77.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",

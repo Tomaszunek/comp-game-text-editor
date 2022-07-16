@@ -10,7 +10,7 @@ export const AnswersWrapper = ({ answers }: AnswersWrapperProps) => {
   return (
     <>
       {answers.map((answer) => (
-        <AnswerText answer={answer} key={answer} />
+        <AnswerText key={answer} answer={answer} />
       ))}
     </>
   )
